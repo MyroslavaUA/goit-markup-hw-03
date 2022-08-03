@@ -36,7 +36,7 @@ a {
 
 .header .container{
   display: flex;
-  align-items: baseline;
+  align-items: center;
   
 }
 
@@ -130,13 +130,15 @@ li {
     margin: 0 auto;
     display: block; 
     border: 0;
-    border-radius: 5px;
     padding: 8px 16px;
     font-size: 16px; 
-    border-radius: 10px;
+    border-radius: 4px;
     background-color: #2196f3;
     color: #ffffff;
     margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
     
   }
 
@@ -183,7 +185,7 @@ padding-bottom: 94px;
 
   }
 
-.img {
+img {
   display: block;
   
 }
@@ -218,7 +220,7 @@ padding-bottom: 94px;
     letter-spacing: 0.03em;
     text-align: center;
     padding-top: 94px;
-    padding-bottom: 50px;
+    padding-bottom: 94px;
   }
 
   
@@ -263,7 +265,7 @@ padding-bottom: 94px;
     line-height: 1.71;
     letter-spacing: 0.03em; 
     color: #ffffff;
-    padding-top: 20px;
+    margin-top: 20px;
   
 }
 .add{
