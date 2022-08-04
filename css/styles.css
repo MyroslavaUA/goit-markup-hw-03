@@ -103,10 +103,14 @@ li {
   }
 
   /*заголовок*/
-.fon{
-  background-color:#2f303A;
+  .fon{
+  background-color: #2f303A;
   padding-top: 200px;
   padding-bottom: 200px;
+  
+  }
+.fon .container{
+  
 }
 
 
@@ -209,7 +213,7 @@ img {
    display: flex;
   column-gap: 30px;
   margin-top: 50px;
-  padding-bottom: 94px;
+  
   
   }
 
@@ -255,7 +259,13 @@ img {
   padding-top: 60px;
   padding-bottom: 60px;
   
+  
 }
+
+.foot .container{
+max-width: 1600px;
+max-height: 252px;
+ }
  
 
 .address{
@@ -292,9 +302,8 @@ img {
    border-radius: 5px;
    background: #2196f3;
    color: #fff;
-   padding: 8px 16px;
+   padding: 6px 22px;
    font-size: 16px;
-   margin-right: 8px;
    line-height: 1.6;
    text-align: center; 
 }
@@ -309,23 +318,11 @@ img {
     text-align: center; 
     border: 0;
     border-radius: 5px;
-    padding: 8px 16px;
-    margin-right: 8px;
+    padding: 6px 22px;
+    margin-left: 8px;
 }
 
 
-.button-two2{
-  margin: 0;
-  font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
-    letter-spacing: 0.03em; 
-    text-align: center; 
-    border: 0;
-    border-radius: 5px;
-    padding: 8px 16px;
-}
 
 /*активна кнопка при наведенні мишки*/
 .button-two:hover {
@@ -333,10 +330,6 @@ img {
   color:#ffffff;
 }
 
-.button-two2:hover{
-  background: #2196f3;
-  color:#ffffff; 
-}
 
 
 /*портфоліо роботи*/
@@ -345,6 +338,7 @@ img {
   .btn-port{
   display: flex;
   justify-content: center;
+  
 }
 
 .foto-port{
